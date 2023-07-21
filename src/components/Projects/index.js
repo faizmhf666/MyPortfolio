@@ -11,6 +11,14 @@ import "./Projects.css";
 
 const data = [
   {
+    demo: "https://faizmhf666.github.io/MyPortfolio/",
+    title: "Portfolio 1.0",
+    thumbnail:
+      "https://res.cloudinary.com/dvu0weqay/image/upload/v1689959067/Screenshot_82_s8sohv.png",
+    id: 0,
+    react: true,
+  },
+  {
     demo: "https://faizbookhub.ccbp.tech",
     title: "BookHub React Project",
     thumbnail:
