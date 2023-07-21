@@ -1,5 +1,6 @@
 {
-  "homepage": "http://faizmhf666.github.io/MyPortfolio",
+  "proxy": "http://localhost:3000",
+  "homepage": ".",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
