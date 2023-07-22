@@ -206,7 +206,7 @@ const Projects = () => {
       <Navbar />
       <div className="projects">
         <div className="headings">
-          <h1>Projects</h1>
+          <h1>#MyProjects</h1>
           <p>Some of my recent projects: </p>
         </div>
         <div className="project-container">

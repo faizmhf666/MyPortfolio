@@ -7,7 +7,7 @@ import "./Contact.css";
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const onSubmitForm = (e) => {
     e.preventDefault();
 
     emailjs
@@ -31,7 +31,7 @@ const Contact = () => {
     <div className="form-container">
       <Navbar />
       <div className="contact-form">
-        <form onSubmit={sendEmail} ref={form} className="login-form-card">
+        <form onSubmit={onSubmitForm} ref={form} className="login-form-card">
           <div className="form-element">
             <label htmlFor="name" className="form-label">
               Your Name*
