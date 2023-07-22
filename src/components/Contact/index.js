@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import "./Contact.css";
