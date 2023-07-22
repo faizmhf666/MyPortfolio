@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
 import { FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -229,20 +228,22 @@ const Projects = () => {
                       className="thumbnail"
                     />
                     <div className="project-btn">
-                      <NavLink
+                      <a
                         className="btn btn-1 button"
-                        to={each.demo}
+                        href={each.demo}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Demo
-                      </NavLink>
-                      <NavLink
+                      </a>
+                      <a
                         className="btn btn-1 button"
-                        to="https://github.com/faizmhf666?tab=repositories"
+                        href="https://github.com/faizmhf666?tab=repositories"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Source
-                      </NavLink>
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -256,8 +257,8 @@ const Projects = () => {
                 <TbBrandJavascript
                   className="p-icons"
                   style={{ color: "#cfb430" }}
-                />{" "}
-                : &nbsp;
+                />
+                &nbsp; : &nbsp;
               </span>
             </h1>
             <Slider {...settings}>
@@ -271,15 +272,22 @@ const Projects = () => {
                       className="thumbnail"
                     />
                     <div className="project-btn">
-                      <NavLink className="btn btn-1 button" to={each.demo}>
-                        Demo
-                      </NavLink>
-                      <NavLink
+                      <a
                         className="btn btn-1 button"
-                        to="https://github.com/faizmhf666?tab=repositories"
+                        href={each.demo}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Demo
+                      </a>
+                      <a
+                        className="btn btn-1 button"
+                        href="https://github.com/faizmhf666?tab=repositories"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         Source
-                      </NavLink>
+                      </a>
                     </div>
                   </div>
                 </li>

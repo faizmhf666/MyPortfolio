@@ -20,22 +20,22 @@ const Navbar = () => {
 
   return (
     <nav className={color ? "header header-bg" : "header"}>
-      <Link to="/MyPortfolio/" className="web-link">
+      <Link to="/" className="web-link">
         <h1 style={{ color: "#f8d90f" }}>{navHeading}</h1>
       </Link>
 
       <ul className={showBar ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/MyPortfolio/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/MyPortfolio/Projects">Projects</Link>
+          <Link to="/Projects">Projects</Link>
         </li>
         <li>
-          <Link to="/MyPortfolio/About">About</Link>
+          <Link to="/About">About</Link>
         </li>
         <li>
-          <Link to="/MyPortfolio/Contact">Contact</Link>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
 
