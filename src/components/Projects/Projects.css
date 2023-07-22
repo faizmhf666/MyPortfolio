@@ -96,7 +96,9 @@
   background-size: cover;
   margin: 1rem;
 }
-
+.p-icons {
+  font-size: 35px;
+}
 @media screen and (max-width: 640px) {
   .projects h1 {
     font-size: 20px;
@@ -128,5 +130,8 @@
   }
   .project-main-heading {
     margin: 1rem;
+  }
+  .p-icons {
+    font-size: 18px;
   }
 }

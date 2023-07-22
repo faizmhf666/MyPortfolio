@@ -188,6 +188,13 @@ const Projects = () => {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   };
 
@@ -207,7 +214,8 @@ const Projects = () => {
             <h1>
               <span className="project-main-heading">
                 &nbsp; React.Js Projects &nbsp;
-                <FaReact size={35} style={{ color: "#00a9ff" }} /> : &nbsp;
+                <FaReact className="p-icons" style={{ color: "#00a9ff" }} /> :
+                &nbsp;
               </span>
             </h1>
             <Slider {...settings}>
@@ -245,8 +253,11 @@ const Projects = () => {
             <h1>
               <span className="project-main-heading">
                 &nbsp; JavaScript Projects &nbsp;
-                <TbBrandJavascript size={35} style={{ color: "#cfb430" }} /> :
-                &nbsp;
+                <TbBrandJavascript
+                  className="p-icons"
+                  style={{ color: "#cfb430" }}
+                />{" "}
+                : &nbsp;
               </span>
             </h1>
             <Slider {...settings}>
