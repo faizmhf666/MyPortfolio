@@ -29,7 +29,7 @@ const Home = () => {
                 Get Resume
               </button>
             </Link>
-            <Link to="/Contact">
+            <Link to="/MyPortfolio/Contact">
               <button type="button" className="btn btn-2">
                 Contact
               </button>

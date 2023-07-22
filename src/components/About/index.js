@@ -20,7 +20,7 @@ const About = () => {
             visually appealing and user-friendly websites that leave a lasting
             impact.
           </p>
-          <Link to="/contact">
+          <Link to="/MyPortfolio/contact">
             <button className="btn btn-1" type="button">
               Contact Me
             </button>
