@@ -16,11 +16,12 @@ const Navbar = () => {
     }
   };
   window.addEventListener("scroll", changeColor);
+  const navHeading = "<MyPortfolio />";
 
   return (
     <nav className={color ? "header header-bg" : "header"}>
       <Link to="/MyPortfolio/" className="web-link">
-        <h1>Portfolio.</h1>
+        <h1>{navHeading}</h1>
       </Link>
 
       <ul className={showBar ? "nav-menu active" : "nav-menu"}>

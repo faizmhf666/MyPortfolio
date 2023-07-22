@@ -16,7 +16,7 @@
 .projects::before {
   content: "";
   background-image: url("https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80");
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-size: cover;
   background-position: center top;
@@ -28,6 +28,7 @@
 }
 .projects h1 {
   font-size: 2.4rem;
+  margin: 1rem;
 }
 .projects p {
   font-size: 1.4rem;
@@ -90,6 +91,11 @@
 .project-btn .btn {
   padding: 0.5rem 1rem;
 }
+.project-main-heading {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  margin: 1rem;
+}
 
 @media screen and (max-width: 640px) {
   .projects h1 {
@@ -113,7 +119,14 @@
     justify-content: space-between;
     padding: 0.5rem 0;
     margin: 1rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  }
+  .button {
+    margin: 1rem;
+  }
+  .project-title {
+    width: 140px;
+  }
+  .project-main-heading {
+    margin: 1rem;
   }
 }

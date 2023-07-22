@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
+import { FaReact } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
 
 import Navbar from "../Navbar";
 import Footer from "../Footer";
@@ -198,11 +200,16 @@ const Projects = () => {
       <div className="projects">
         <div className="headings">
           <h1>Projects</h1>
-          <p>Some of my recent projects </p>
+          <p>Some of my recent projects: </p>
         </div>
         <div className="project-container">
           <div>
-            <h1>React.Js Projects</h1>
+            <h1>
+              <span className="project-main-heading">
+                &nbsp; React.Js Projects &nbsp;
+                <FaReact size={35} style={{ color: "#00a9ff" }} /> : &nbsp;
+              </span>
+            </h1>
             <Slider {...settings}>
               {reactProjects.map((each) => (
                 <li key={each.id} className="project-card">
@@ -235,7 +242,13 @@ const Projects = () => {
             </Slider>
           </div>
           <div>
-            <h1>JavaScript Projects</h1>
+            <h1>
+              <span className="project-main-heading">
+                &nbsp; JavaScript Projects &nbsp;
+                <TbBrandJavascript size={35} style={{ color: "#cfb430" }} /> :
+                &nbsp;
+              </span>
+            </h1>
             <Slider {...settings}>
               {nonReactProjects.map((each) => (
                 <li key={each.id} className="project-card">
